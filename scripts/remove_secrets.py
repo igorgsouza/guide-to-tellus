@@ -4,7 +4,7 @@ import re
 def replace_in_md_files():
     secret_block = re.compile(r'```secret.*?```', re.DOTALL)
     secret_line = re.compile(r'`.*?`')
-    secret_link = re.compile(r'\[\[_.*?\]\]')
+    secret_link = re.compile(r'\!?\[\[_.*?\]\]')
 
     for root, _, files in os.walk("./content"):
         for file in files:
