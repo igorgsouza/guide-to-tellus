@@ -10,7 +10,6 @@ def replace_in_md_files():
         for file in files:
             if file.endswith(".md"):
                 file_path = os.path.join(root, file)
-                print(file_path)
                 
                 if file.startswith("_"):
                     os.remove(file_path)
