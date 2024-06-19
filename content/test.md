@@ -1,3 +1,0 @@
-
-[[Wardog]] quase mor eu
-  
