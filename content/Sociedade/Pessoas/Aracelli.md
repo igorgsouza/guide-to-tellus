@@ -4,3 +4,4 @@ tags:
   - generic-v1
 date: 2024-06-22
 ---
+[[Aracelli.png]]
